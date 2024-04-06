@@ -1,0 +1,10 @@
+apiVersion: v1
+
+endpoints:
+
+  - name: spring-boot-app
+    port: 8082
+    type: REST
+    networkvisibility: Public
+    context: /api
+    schemaFilePath: openapi.yaml
